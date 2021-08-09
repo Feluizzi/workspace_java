@@ -5,14 +5,25 @@ public class ContaCorrente {
 	private double saldo;
 
 	
-	// GETS AND SETS
-	public void setAll (int numeroconta, int digito, String nometit, String cpftit, double saldo) {
+	
+	// Construtor
+	
+	public ContaCorrente (int numeroconta, int digito, String nometit, String cpftit, double saldo) {
 		this.numeroconta = numeroconta;
 		this.digito = digito;
 		this.nometit = nometit;
 		this.cpftit = cpftit;
 		this.saldo = saldo;
 	}
+	// GETS AND SETS
+/*	public void setAll (int numeroconta, int digito, String nometit, String cpftit, double saldo) {
+		this.numeroconta = numeroconta;
+		this.digito = digito;
+		this.nometit = nometit;
+		this.cpftit = cpftit;
+		this.saldo = saldo;
+	}
+	*/
 	
 	public int getNumeroconta() {
 		return numeroconta;
